@@ -35,7 +35,7 @@ const alternatePages = canonicalUrl => {
       href={canonicalUrl.replace(
         urlRoot,
         `https://${
-          language.code === 'en' ? 'legacy.' : `${language.code}.`
+          language.code === 'en' ? '' : `${language.code}.`
         }reactjs.org`,
       )}
     />
@@ -66,15 +66,7 @@ const TitleAndMetaTags = ({
         content={ogDescription || defaultDescription}
       />
       <meta property="fb:app_id" content="623268441017527" />
-      {canonicalUrl && (
-        <link
-          rel="canonical"
-          href={canonicalUrl.replace(
-            'https://reactjs.org',
-            'https://legacy.reactjs.org',
-          )}
-        />
-      )}
+      {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
       {canonicalUrl && (
         <link
           rel="alternate"
