@@ -54,6 +54,7 @@ const TitleAndMetaTags = ({
 }: Props) => {
   return (
     <Helmet title={title}>
+      <meta name="robots" content="noindex" />
       <meta property="og:title" content={title} />
       <meta property="og:type" content={ogType} />
       {canonicalUrl && <meta property="og:url" content={canonicalUrl} />}
