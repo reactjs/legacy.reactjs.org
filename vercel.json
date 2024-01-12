@@ -382,6 +382,18 @@
       "permanent": false
     },
     {
+      "source": "/docs/error-decoder.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "invariant",
+          "value": "137"
+        }
+      ],
+      "destination": "https://react.dev/errors/137",
+      "permanent": true
+    },
+    {
       "source": "/version/15.6",
       "destination": "https://react-legacy.netlify.app",
       "permanent": false
