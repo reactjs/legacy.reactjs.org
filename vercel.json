@@ -387,7 +387,7 @@
         {
           "type": "query",
           "key": "invariant",
-          "value": "(?<code>)"
+          "value": "(<code>)"
         }
       ],
       "destination": "https://react.dev/errors/:code",
