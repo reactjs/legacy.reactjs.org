@@ -387,10 +387,10 @@
         {
           "type": "query",
           "key": "invariant",
-          "value": "137"
+          "value": "<code>"
         }
       ],
-      "destination": "https://react.dev/errors/137",
+      "destination": "https://react.dev/errors/:code",
       "permanent": true
     },
     {
