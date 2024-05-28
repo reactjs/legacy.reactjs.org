@@ -6,6 +6,19 @@ next: hooks-custom.html
 prev: hooks-effect.html
 ---
 
+<div class="scary">
+
+> These docs are old and won't be updated. Go to [react.dev](https://react.dev/) for the new React docs.
+> 
+> These new documentation pages teach modern React and include live examples:
+>
+> - [Rules of Hooks](https://react.dev/reference/rules/rules-of-hooks)
+> - [Components and Hooks must be pure
+](https://react.dev/reference/rules/components-and-hooks-must-be-pure)
+> - [React calls Components and Hooks](https://react.dev/reference/rules/react-calls-components-and-hooks)
+
+</div>
+
 *Hooks* are a new addition in React 16.8. They let you use state and other React features without writing a class.
 
 Hooks are JavaScript functions, but you need to follow two rules when using them. We provide a [linter plugin](https://www.npmjs.com/package/eslint-plugin-react-hooks) to enforce these rules automatically:
