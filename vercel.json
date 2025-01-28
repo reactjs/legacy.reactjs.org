@@ -17,111 +17,51 @@
     },
     {
       "source": "/docs/add-react-to-a-website.html",
-      "has": [
-        {
-          "type": "host",
-          "value": "reactjs.org"
-        }
-      ],
       "destination": "https://react.dev/learn/add-react-to-an-existing-project",
       "permanent": true
     },
     {
       "source": "/docs/create-a-new-react-app.html",
-      "has": [
-        {
-          "type": "host",
-          "value": "reactjs.org"
-        }
-      ],
       "destination": "https://react.dev/learn/start-a-new-react-project",
       "permanent": true
     },
     {
       "source": "/docs/release-channels.html",
-      "has": [
-        {
-          "type": "host",
-          "value": "reactjs.org"
-        }
-      ],
       "destination": "https://react.dev/community/versioning-policy",
       "permanent": true
     },
     {
       "source": "/docs/thinking-in-react.html",
-      "has": [
-        {
-          "type": "host",
-          "value": "reactjs.org"
-        }
-      ],
       "destination": "https://react.dev/learn/thinking-in-react",
       "permanent": true
     },
     {
       "source": "/tutorial/tutorial.html",
-      "has": [
-        {
-          "type": "host",
-          "value": "reactjs.org"
-        }
-      ],
       "destination": "https://react.dev/learn/tutorial-tic-tac-toe",
       "permanent": true
     },
     {
       "source": "/community/support.html",
-      "has": [
-        {
-          "type": "host",
-          "value": "reactjs.org"
-        }
-      ],
       "destination": "https://react.dev/community",
       "permanent": true
     },
     {
       "source": "/community/conferences.html",
-      "has": [
-        {
-          "type": "host",
-          "value": "reactjs.org"
-        }
-      ],
       "destination": "https://react.dev/community/conferences",
       "permanent": true
     },
     {
       "source": "/community/meetups.html",
-      "has": [
-        {
-          "type": "host",
-          "value": "reactjs.org"
-        }
-      ],
       "destination": "https://react.dev/community/meetups",
       "permanent": true
     },
     {
       "source": "/community/team.html",
-      "has": [
-        {
-          "type": "host",
-          "value": "reactjs.org"
-        }
-      ],
       "destination": "https://react.dev/community/team",
       "permanent": true
     },
     {
       "source": "/community/videos.html",
-      "has": [
-        {
-          "type": "host",
-          "value": "reactjs.org"
-        }
-      ],
       "destination": "https://react.dev/community/videos",
       "permanent": true
     },
