@@ -16,7 +16,7 @@
       "permanent": true
     },
     {
-      "source": "docs/getting-started.html",
+      "source": "/docs/getting-started.html",
       "destination": "https://react.dev/learn",
       "permanent": true
     },
