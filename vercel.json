@@ -16,6 +16,11 @@
       "permanent": true
     },
     {
+      "source": "/docs/getting-started.html",
+      "destination": "https://react.dev/learn",
+      "permanent": true
+    },
+    {
       "source": "/docs/add-react-to-a-website.html",
       "destination": "https://react.dev/learn/add-react-to-an-existing-project",
       "permanent": true
