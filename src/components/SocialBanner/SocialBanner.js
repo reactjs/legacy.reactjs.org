@@ -15,7 +15,7 @@ const linkProps = {
   rel: 'noopener',
 };
 
-const bannerText = 'This documentation is for React 17.';
+const bannerText = 'This documentation is for React 16.';
 const bannerLink = 'Go to the latest docs.';
 
 export default function SocialBanner() {

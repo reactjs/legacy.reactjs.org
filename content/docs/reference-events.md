@@ -34,10 +34,6 @@ string type
 
 > Note:
 >
-> As of v17, `e.persist()` doesn't do anything because the `SyntheticEvent` is no longer [pooled](/docs/legacy-event-pooling.html).
-
-> Note:
->
 > As of v0.14, returning `false` from an event handler will no longer stop event propagation. Instead, `e.stopPropagation()` or `e.preventDefault()` should be triggered manually, as appropriate.
 
 ## Supported Events {#supported-events}
@@ -353,9 +349,6 @@ Event names:
 onScroll
 ```
 
->Note
->
->Starting with React 17, the `onScroll` event **does not bubble** in React. This matches the browser behavior and prevents the confusion when a nested scrollable element fires events on a distant parent.
 
 Properties:
 

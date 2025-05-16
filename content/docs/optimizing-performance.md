@@ -173,11 +173,6 @@ If you haven't yet installed the React DevTools, you can find them here:
 > A production profiling bundle of `react-dom` is also available as `react-dom/profiling`.
 > Read more about how to use this bundle at [fb.me/react-profiling](https://fb.me/react-profiling)
 
-> Note
->
-> Before React 17, we use the standard [User Timing API](https://developer.mozilla.org/en-US/docs/Web/API/User_Timing_API) to profile components with the chrome performance tab. 
-> For a more detailed walkthrough, check out [this article by Ben Schwarz](https://calibreapp.com/blog/react-performance-profiling-optimization).
-
 ## Virtualize Long Lists {#virtualize-long-lists}
 
 If your application renders long lists of data (hundreds or thousands of rows), we recommend using a technique known as "windowing". This technique only renders a small subset of your rows at any given time, and can dramatically reduce the time it takes to re-render the components as well as the number of DOM nodes created.
